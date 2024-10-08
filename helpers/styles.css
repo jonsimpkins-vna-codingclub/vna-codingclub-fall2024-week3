@@ -1,0 +1,71 @@
+/** Style for the page body
+  * (the wrapper around all the other stuff)
+*/
+body {
+    margin: 0;
+}
+
+/** Style for the page header */
+h1 {
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding: 16px;
+}
+
+canvas {
+    margin: auto;
+    display: block;
+    border: 1px solid lightgrey;
+}
+
+.sub-header {
+    line-height: 24px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+#click-value-div {
+    display: inline-block;
+}
+
+#click-value-div label {
+    display: block;
+}
+
+#click-value-div.hidden {
+    display: none;
+}
+
+
+.controls-row {
+    display: flex;
+    max-width: 500px;
+    margin: 12px auto;
+    text-align: center;
+}
+
+.controls-spreader {
+    flex: 1;
+}
+
+#value-tooltip {
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    border: 1px solid lightgrey;
+    background: lightcoral;
+}
+
+button {
+    margin: 0 6px;
+    border: 0.5px solid lightgray;
+}
+
+#round-lbl {
+    display: block;
+}
