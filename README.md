@@ -85,6 +85,15 @@ new method that applies **your** rules for this new game of life variant.
 
 Open `step_3.js`, and start off by changing the `authorName` at the top to your name.
 
-Now if you refresh the page, you'll notice that the "random" button now produces a **very** different board than before.
+Now if you refresh the page, you'll notice that the "random" button now produces a **very** different board than before, should be a field of greens and purples and shades in-between.
 
-There's a
+Check out the comments for some suggestions on convenience methods you
+could leverage:
+
+* How to make a random value, maybe you could add it / subtract it from the current value
+* How to make a value that oscillates back and forth (sinusoidally)
+* How to check the total values around a cell that are positive or negative like it is
+
+And now: go forth and create a simulation! You might use these to simulate land / water forming in smooth regions, you might simulate two
+different types of bacteria growing and fighting for control, your
+imagination is the limit!
