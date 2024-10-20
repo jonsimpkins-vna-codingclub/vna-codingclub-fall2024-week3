@@ -1,6 +1,6 @@
-# Fall 2024, Week 3
+# Fall 2024, Week 3-4
 
-This week, we'll be learning about:
+This week and next, we'll be learning about:
 
 * Comparison operators (<, >, ==)
 * How to invoke methods
